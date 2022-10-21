@@ -1,0 +1,13 @@
+name = input('What is your name: ')
+day_of_the_week = input('What day of the week is it: ')
+fav_time_of_day = input('Do you like night or Day: ')
+fav_drink = input('What is your favorite drink: ')
+fav_season = input('What is your favorite season: ')
+
+if fav_season.title() == 'Winter' or fav_season.title() == "Fall":
+  temp = 'cold'
+else: 
+  temp = 'warm'
+
+print(
+f'\n\nHello {name}!  I hope you have a great {day_of_the_week}.  If you are feeling down, think about snuggling up on the couch while drinking a cup of {fav_drink} on a calm, {temp} {fav_season} {fav_time_of_day}.')
